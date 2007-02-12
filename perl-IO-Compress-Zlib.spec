@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	Compress-Zlib
 Summary:	Perl interface to read/write gzip and zip files/buffers
-Summary(pl):	Perlowy interfejs do odczytu/zapisu plików/buforów gzip i zip
+Summary(pl.UTF-8):   Perlowy interfejs do odczytu/zapisu plikÃ³w/buforÃ³w gzip i zip
 Name:		perl-IO-Compress-Zlib
 Version:	2.001
 Release:	1
@@ -29,9 +29,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module provides a Perl interface to allow reading and writing of
 RFC 1950, 1951, 1952 (i.e. gzip) and zip files/buffers.
 
-%description -l pl
-Ten modu³ udostêpnia perlowy interfejs pozwalaj±cy na odczyt i zapis
-plików/buforów w formacie zgodnym z RFC 1950, 1951, 1952 (czyli gzip)
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia perlowy interfejs pozwalajÄ…cy na odczyt i zapis
+plikÃ³w/buforÃ³w w formacie zgodnym z RFC 1950, 1951, 1952 (czyli gzip)
 oraz zip.
 
 %prep
