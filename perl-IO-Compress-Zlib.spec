@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	Compress-Zlib
 Summary:	Perl interface to read/write gzip and zip files/buffers
-Summary(pl.UTF-8):   Perlowy interfejs do odczytu/zapisu plików/buforów gzip i zip
+Summary(pl.UTF-8):	Perlowy interfejs do odczytu/zapisu plików/buforów gzip i zip
 Name:		perl-IO-Compress-Zlib
 Version:	2.001
 Release:	1
