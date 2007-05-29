@@ -17,8 +17,8 @@ Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar
 # Source0-md5:	a4c3a1501558d832a62907ae4e08c9d8
 URL:		http://search.cpan.org/dist/IO-Compress-Zlib/
 %if %{with tests}
-BuildRequires:	perl-Compress-Raw-Zlib
-BuildRequires:	perl-IO-Compress-Base
+BuildRequires:	perl-Compress-Raw-Zlib >= %{version}
+BuildRequires:	perl-IO-Compress-Base >= %{version}
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
