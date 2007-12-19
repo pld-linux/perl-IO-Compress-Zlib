@@ -8,13 +8,13 @@
 Summary:	Perl interface to read/write gzip and zip files/buffers
 Summary(pl.UTF-8):	Perlowy interfejs do odczytu/zapisu plików/buforów gzip i zip
 Name:		perl-IO-Compress-Zlib
-Version:	2.004
+Version:	2.008
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a4c3a1501558d832a62907ae4e08c9d8
+# Source0-md5:	93cc28273dc029615b78045424847822
 URL:		http://search.cpan.org/dist/IO-Compress-Zlib/
 %if %{with tests}
 BuildRequires:	perl-Compress-Raw-Zlib >= %{version}
